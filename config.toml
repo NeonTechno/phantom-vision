@@ -1,0 +1,13 @@
+# Phantom Vision Configuration
+
+[model]
+default = "claude-opus-4-6"
+max_tokens = 1024
+
+[image]
+max_dimension = 1568   # Auto-resize images larger than this (pixels)
+supported_formats = ["jpg", "jpeg", "png", "gif", "webp"]
+
+[output]
+default_format = "text"   # text | json
+show_timing = false
